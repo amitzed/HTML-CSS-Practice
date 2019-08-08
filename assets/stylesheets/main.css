@@ -1,4 +1,7 @@
 
+/* ============================================================
+CSS RESET
+============================================================ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,3 +45,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ============================================================
+END CSS RESET
+============================================================ */
+
+/* ============================================================
+GRID
+============================================================  */
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+/* ============================================================
+END GRID
+============================================================  */
