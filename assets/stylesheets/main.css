@@ -75,6 +75,27 @@ GRID
 	padding-right: 30px;
 }
 
+.col-1-3 {
+	width: 33.33%;
+}
+
+.col-2-3 {
+	width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 /* ============================================================
 END GRID
 ============================================================  */
@@ -110,8 +131,13 @@ END BUTTONS
 HOME PAGE
 ============================================================  */
 .hero {
+	line-height: 45px;
 	padding: 25px 80px 66px 80px;
 }
+
+.hero h2 {font-size: 35px;}
+
+.hero p {font-size: 24px;}
 /* ============================================================
 END HOME PAGE
 ============================================================  */
@@ -141,9 +167,22 @@ END CLEARFIX
 MAIN HEADER
 ============================================================  */
 .logo {
+	font-size: 50px;
+	line-height: 45px;
 	float: left;
 	border-top: 4px solid #00C3E3;
 	padding: 40px 0 22px 0;
+}
+
+/* class="tagline" In header H3 Element */
+.tagline {
+	margin: 65px 0 20px 0;
+}
+
+/* class="primary-nav" In header NAV Element */
+.primary-nav {
+	font-size: 15px;
+	font-weight: 500;
 }
 /* ============================================================
 END MAIN HEADER
@@ -152,35 +191,69 @@ END MAIN HEADER
 /* ============================================================
 MAIN FOOTER
 ============================================================  */
-.primary-footer small {
-	float: left;
-}
-
 .primary-footer {
+	color: #648880;
+	font-size: 15px;
 	padding-bottom: 45px;
 	padding-top: 45px;
+}
+
+.primary-footer small {
+	float: left;
+	font-weight: 500;
 }
 /* ============================================================
 END MAIN FOOTER
 ============================================================  */
 
-.col-1-3 {
-	width: 33.33%;
+/* ============================================================
+CUSTOM STYLING
+============================================================  */
+body {
+	color: #808080;
+	font: 200 15px/22.5px "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.col-2-3 {
-	width: 66.66%;
+h1, h2, h3, h4 {color: #2CB457;}
+
+h1 {
+	font-size: 35px;
+	line-height: 40px;
 }
 
-.col-1-3,
-.col-2-3 {
-	display: inline-block;
-	vertical-align: top;
+h2 {
+	font-size: 25px;
+	line-height: 40px;
 }
 
-.grid,
-.col-1-3,
-.col-2-3 {
-	padding-left: 15px;
-	padding-right: 15px;
+h3 {font-size: 21px;}
+
+h4 {font-size: 18px;}
+
+h5 {
+	color: #FF6417;
+	font-size: 14px;
+	font-weight: 400;
 }
+
+strong {font-weight: 400;}
+
+cite, em {
+	font-style: italic;
+}
+/* ============================================================
+END CUSTOM STYLING
+============================================================  */
+
+/* ============================================================
+LINKS STYLING
+============================================================  */
+a {color: #FF6417;}
+
+a:hover {color: #00C3E3;}
+
+/* Since Menu/Teaser <h3> and <h5> elems are wrapped by anchor elems, this fixes the hover */
+.teaser a:hover h3 {color: #00C3E3;}
+/* ============================================================
+END LINKS STYLING
+============================================================  */
