@@ -133,6 +133,7 @@ HOME PAGE
 .hero {
 	line-height: 45px;
 	padding: 25px 80px 66px 80px;
+	text-align: center;
 }
 
 .hero h2 {font-size: 35px;}
@@ -176,6 +177,7 @@ MAIN HEADER
 
 /* class="tagline" In header H3 Element */
 .tagline {
+	text-align: right;
 	margin: 65px 0 20px 0;
 }
 
@@ -183,6 +185,8 @@ MAIN HEADER
 .primary-nav {
 	font-size: 15px;
 	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: .81px;
 }
 /* ============================================================
 END MAIN HEADER
@@ -202,6 +206,7 @@ MAIN FOOTER
 	float: left;
 	font-weight: 500;
 }
+
 /* ============================================================
 END MAIN FOOTER
 ============================================================  */
@@ -234,6 +239,7 @@ h5 {
 	color: #FF6417;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong {font-weight: 400;}
@@ -248,12 +254,27 @@ END CUSTOM STYLING
 /* ============================================================
 LINKS STYLING
 ============================================================  */
-a {color: #FF6417;}
+a {
+	color: #FF6417;
+	text-decoration: none;
+}
 
 a:hover {color: #00C3E3;}
+
+p a {
+	border-bottom: 1px solid #808080;
+}
 
 /* Since Menu/Teaser <h3> and <h5> elems are wrapped by anchor elems, this fixes the hover */
 .teaser a:hover h3 {color: #00C3E3;}
 /* ============================================================
 END LINKS STYLING
+============================================================  */
+
+/* ============================================================
+NAV
+============================================================  */
+.nav {text-align: right;}
+/* ============================================================
+END NAV
 ============================================================  */
