@@ -138,7 +138,10 @@ HOME PAGE
 
 .hero h2 {font-size: 35px;}
 
-.hero p {font-size: 24px;}
+.hero p {
+	font-size: 24px;
+	font-weight: 100;
+}
 /* ============================================================
 END HOME PAGE
 ============================================================  */
@@ -169,10 +172,13 @@ MAIN HEADER
 ============================================================  */
 .logo {
 	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: .5px;
 	line-height: 45px;
 	float: left;
 	border-top: 4px solid #00C3E3;
 	padding: 40px 0 22px 0;
+	text-transform: uppercase;
 }
 
 /* class="tagline" In header H3 Element */
@@ -216,7 +222,7 @@ CUSTOM STYLING
 ============================================================  */
 body {
 	color: #808080;
-	font: 200 15px/22.5px "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+	font: 200 15px/22.5px "Lato", "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4 {color: #2CB457;}
