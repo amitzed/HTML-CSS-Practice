@@ -1,4 +1,5 @@
 /* #ff4554
+#F8F8FF
 #00c3e3
 #ffce26
 #2cb457
@@ -114,8 +115,12 @@ END TYPOGRAPHY
 BUTTONS
 ============================================================  */
 .btn {
+	color: #F8F8FF;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 	display: inline-block;
-	border-radius: 14px 5px;
+	border-radius: 17px 3px;
 	margin: 0;
 }
 
@@ -131,6 +136,7 @@ END BUTTONS
 HOME PAGE
 ============================================================  */
 .hero {
+	color: #F8F8FF;
 	line-height: 45px;
 	padding: 25px 80px 66px 80px;
 	text-align: center;
@@ -168,6 +174,18 @@ END CLEARFIX
 ============================================================  */
 
 /* ============================================================
+ROWS
+============================================================  */
+.row {
+	background: #F8F8FF;
+	min-width: 960px;
+	padding: 55px 0 45px 0;
+}
+/* ============================================================
+END ROWS
+============================================================  */
+
+/* ============================================================
 MAIN HEADER
 ============================================================  */
 .logo {
@@ -197,7 +215,14 @@ MAIN HEADER
 /* ============================================================
 END MAIN HEADER
 ============================================================  */
-
+.primary-header a,
+.primary-footer a {
+	color: #F8F8FF;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+	color: #2CB457;
+}
 /* ============================================================
 MAIN FOOTER
 ============================================================  */
@@ -221,6 +246,7 @@ END MAIN FOOTER
 CUSTOM STYLING
 ============================================================  */
 body {
+	background: #2F404F;
 	color: #808080;
 	font: 200 15px/22.5px "Lato", "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
