@@ -332,6 +332,14 @@ END LINKS STYLING
 NAV
 ============================================================  */
 .nav {text-align: right;}
+
+.nav li {
+	display: inline-block;
+	margin: 0 25px;
+	vertical-align: top;
+}
+
+.nav li {margin-right: 0;}
 /* ============================================================
 END NAV
 ============================================================  */
