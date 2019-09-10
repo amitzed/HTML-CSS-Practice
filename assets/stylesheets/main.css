@@ -350,6 +350,14 @@ p a {
 
 /* Since Menu/Teaser <h3> and <h5> elems are wrapped by anchor elems, this fixes the hover */
 .teaser a:hover h3 {color: #00C3E3;}
+
+/* Home Page Image Styling */
+.teaser img {
+	display: block;
+	margin-bottom: 25px;
+	border-radius: 17px 3px;
+	max-width: 100%;
+}
 /* ============================================================
 END LINKS STYLING
 ============================================================  */
