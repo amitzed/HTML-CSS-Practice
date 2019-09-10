@@ -183,8 +183,16 @@ ROBOTS - robots.html
 	border: 1px solid #D3D3D3;
 	border-radius: 17px 3px;
 	margin-top: 85px;
-	padding: 20px 0;
+	padding-bottom: 20px;
 	text-align: center;
+}
+
+.robot-info img {
+	border-radius: 50%;
+	border-radius: 17px 3px;
+	height: 140px;
+	margin: -65px 0 17px 0;
+	vertical-align: top;
 }
 /* ============================================================
 END ROBOTS
