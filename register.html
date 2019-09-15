@@ -51,8 +51,43 @@
           </ul>
         </section><!--
         --><form class="col-1-3" action="#" method="post">
-          ...
+          <fieldset class="register-group">
+
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Full Name" required>
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Email Address" required>
+            </label>
+
+            <label>
+              Number of Tickets
+              <select name="quantity" required>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </label>
+
+            <label>
+              <textarea name="comments"></textarea>
+            </label>
+
+            <input class="btn btn-default" type="submit" name="submit" value="Buy">
+
+          </fieldset>
         </form>
+
       </div>
     </section>
 

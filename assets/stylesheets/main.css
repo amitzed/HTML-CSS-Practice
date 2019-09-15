@@ -405,6 +405,67 @@ REGISTRATION
 	list-style: square;
 	margin: 0 0 20px 30px;
 }
+
+form {
+	margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+	/* font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica Arial, sans-serif; */
+	font: 200 15px/22.5px "Lato", "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.register-group label {
+	color: #3973AC;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+	color: #808080;
+	border: 1px solid #2CB457;
+	border-radius: 5px;
+	display: block;
+	margin: 5px 0 25px 0;
+	padding: 5px 10px;
+}
+
+.register-group input,
+.register-group textarea {
+	width: 100%;
+}
+
+/* .register-group select {
+	float: right;
+} */
+
+.register-group select {
+	float: right;
+	height: 30px;
+	width: 60px;
+}
+
+.register-group textarea {
+	height: 80px;
+}
+
+.btn-default {
+	font-size: 15px;
+	transition: -webkit-letter-spacing 1s ease;
+	transition: -moz-letter-spacing 1s ease;
+	transition: -o-letter-spacing 1s ease;
+	transition: letter-spacing 1s ease;
+}
+.btn-default:hover {
+	background: rgba(255, 100, 23, .8);
+	color: yellow;
+	font-size: 16px;
+	letter-spacing: 10px;
+}
 /* ============================================================
 END REGISTRATION
 ============================================================  */
