@@ -4,6 +4,7 @@
 #ffce26
 #2cb457
 #ff6714 */
+
 /* ============================================================
 CSS RESET
 ============================================================ */
@@ -196,6 +197,78 @@ ROBOTS - robots.html
 }
 /* ============================================================
 END ROBOTS
+============================================================  */
+
+/* ============================================================
+SCHEDULE - schedule.html
+============================================================  */
+table {
+	margin-bottom: 45px;
+	width: 100%;
+}
+
+table:last-child {
+	margin-bottom: 0;
+}
+
+th,
+td {
+	padding: 0 30px 25px 0;
+	vertical-align: top;
+}
+
+th {
+	text-align: right;
+	padding-right: 45px;
+	width: 20%;
+}
+
+td { width: 40%; }
+
+thead {
+	font-weight: bold;
+	line-height: 40px;
+}
+
+thead th {
+	color: #00C3E3;
+	font-size: 25px;
+}
+
+tbody th {
+	color: #648880;
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+tbody td {
+	border-top: .12em solid #D3D3D3;
+	padding-top: 20px;
+}
+
+tbody td:first-of-type { padding-right: 15px; }
+
+tbody td:last-of-type { padding-left: 15px; }
+
+tbody td:only-of-type {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+table a {
+	color: #808080;
+	font-weight: 300;
+}
+
+table h3 {
+	margin-bottom: 0;
+}
+
+.offset-schedule { color: #FF6417; }
+/* ============================================================
+END SCHEDULE
 ============================================================  */
 
 /* ============================================================
